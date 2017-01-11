@@ -1,0 +1,14 @@
+{
+  "name": "Node.js on Heroku for static websites",
+  "description": "Node.js on Heroku for static websites",
+  "repository": "https://github.com/szib/node4heroku",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["node", "express", "static"],
+  "image": "heroku/nodejs",
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}

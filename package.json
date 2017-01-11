@@ -1,0 +1,17 @@
+{
+  "name": "fcc-timestamp-microservice",
+  "version": "0.0.1",
+  "description": "FreeCodeCamp Timestamp Microservice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "latest",
+    "moment": "^2.17.1"
+  },
+  "engines": {
+    "node": "latest"
+  }
+}
