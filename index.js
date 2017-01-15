@@ -3,9 +3,8 @@ var app = express();
 
 app.set('port', (process.env.PORT || 3000));
 
-//app.use(express.static(__dirname + '/website'));
-
 app.use(require('./controllers/timestamp'));
+app.use(require('./controllers/header_parser'));
 
 // Listen
 app.listen(app.get('port'), function() {
