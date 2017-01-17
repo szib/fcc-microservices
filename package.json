@@ -9,7 +9,9 @@
   "license": "MIT",
   "dependencies": {
     "express": "latest",
-    "moment": "^2.17.1"
+    "md5": "^2.2.1",
+    "moment": "^2.17.1",
+    "mongodb": "^2.2.21"
   },
   "engines": {
     "node": "latest"
