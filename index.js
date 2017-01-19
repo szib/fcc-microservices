@@ -6,6 +6,7 @@ app.set('port', (process.env.PORT || 3000));
 app.use(require('./controllers/timestamp'));
 app.use(require('./controllers/header_parser'));
 app.use(require('./controllers/tinyurl'));
+app.use(require('./controllers/imagesearch'));
 
 // Listen
 app.listen(app.get('port'), function() {
