@@ -1,5 +1,6 @@
 'use strict';
 
+require('dotenv').config();
 const express = require('express');
 const router = express.Router();
 const qs = require('querystring');
@@ -33,7 +34,7 @@ class GoogleClient {
         if (start) {
             options.start = parseInt(start);
         }
-        console.log(options);
+        
         return qs.stringify(options);
     }
 
