@@ -1,0 +1,27 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>File Metadata Microservice</title>
+  <meta name="description" content="File Metadata Microservice">
+  <meta name="author" content="Ivan Szebenszki">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <form action="/file-metadata/get-file-size" method="post" enctype="multipart/form-data">
+      <label for="myfile">Submit a file to view its filesize.</label><br />
+      <input type="file" name="myfile" /><br />
+      <button type="submit" class="btn btn-default">Submit</button>
+  </form>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</body>
+</html>

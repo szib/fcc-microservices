@@ -14,6 +14,7 @@ app.use(require('./controllers/timestamp'));
 app.use(require('./controllers/header_parser'));
 app.use(require('./controllers/tinyurl'));
 app.use(require('./controllers/imagesearch'));
+app.use(require('./controllers/file-metadata'));
 
 app.get('/', (req, res) => {
     var mdFile = path.join(__dirname, 'public', 'index.md');
