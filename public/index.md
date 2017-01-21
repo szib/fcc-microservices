@@ -62,3 +62,15 @@ Endpoints:
 - <https://szib-fcc-microservices.herokuapp.com/imagesearch/lolcat>
 - <https://szib-fcc-microservices.herokuapp.com/imagesearch/lolcat/offset/10>
 - <https://szib-fcc-microservices.herokuapp.com/imagesearch_history>
+
+--------------------------------------------------------------------------------
+
+## File Metadata service
+
+User Stories:
+
+- I can upload a file and get back its size in JSON
+
+Endpoint:
+
+- <https://szib-fcc-microservices.herokuapp.com/file-metadata>
